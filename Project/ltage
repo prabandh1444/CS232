@@ -1,9 +1,0 @@
-GPPM predictors feature two tables, a
-bimodal table and a global table. The bimodal table is indexed with the branch PC, and each
-bimodal entry contains a prediction associated with the branch. The global table consists of
-several banks. Each bank is indexed with a different global-history length. Each global entry
-contains a tag for identifying the global-history value owning the entry, and a prediction
-associated with this global history value. The prediction is given by the longest matching
-global-history value, or by the bimodal table if there is a tag miss in all the global banks.
-
-The ping-pong phenomenon occurs when two branches that are close together in the code are predicted using different entries in the L-TAGE predictor. This can happen when the two branches have similar local history patterns, but different global history patterns. In this case, the L-TAGE predictor may make incorrect predictions for one or both of the branches, because it is using the wrong predictor entry.
