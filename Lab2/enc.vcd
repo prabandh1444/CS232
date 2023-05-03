@@ -1,0 +1,146 @@
+$date
+  Sun Jan 29 16:29:04 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module testbench_enc $end
+$var reg 4 ! i[3:0] $end
+$var reg 2 " y[1:0] $end
+$scope module dut_instance $end
+$var reg 4 # i[3:0] $end
+$var reg 2 $ y[1:0] $end
+$var reg 1 % temp1 $end
+$var reg 1 & temp2 $end
+$scope module dut_instance $end
+$var reg 1 ' x1 $end
+$var reg 1 ( x2 $end
+$var reg 1 ) y $end
+$upscope $end
+$scope module dut_instance1 $end
+$var reg 1 * x1 $end
+$var reg 1 + x2 $end
+$var reg 1 , y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b00 "
+b0001 #
+b00 $
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+#1
+b0010 !
+b01 "
+b0010 #
+b01 $
+1&
+1+
+1,
+#2
+b0100 !
+b10 "
+b0100 #
+b10 $
+1%
+0&
+1(
+1)
+0+
+0,
+#3
+b1000 !
+b11 "
+b1000 #
+b11 $
+1&
+1'
+0(
+1*
+1,
+#4
+b0001 !
+b00 "
+b0001 #
+b00 $
+0%
+0&
+0'
+0)
+0*
+0,
+#5
+b0010 !
+b01 "
+b0010 #
+b01 $
+1&
+1+
+1,
+#6
+b0100 !
+b10 "
+b0100 #
+b10 $
+1%
+0&
+1(
+1)
+0+
+0,
+#7
+b1000 !
+b11 "
+b1000 #
+b11 $
+1&
+1'
+0(
+1*
+1,
+#8
+b0001 !
+b00 "
+b0001 #
+b00 $
+0%
+0&
+0'
+0)
+0*
+0,
+#9
+b0010 !
+b01 "
+b0010 #
+b01 $
+1&
+1+
+1,
+#10
+b0100 !
+b10 "
+b0100 #
+b10 $
+1%
+0&
+1(
+1)
+0+
+0,

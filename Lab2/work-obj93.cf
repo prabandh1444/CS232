@@ -1,0 +1,36 @@
+v 4
+file . "RCA8_tb.vhd" "2325728da3573c3a7bd0fe2b69e9fba96afd03d9" "20230130090021.077":
+  entity testbench_rca8 at 1( 0) + 0 on 57;
+  architecture tb of testbench_rca8 at 7( 82) + 0 on 58;
+file . "not_tb.vhd" "1fc98ba8012a91fcd30e80631c824c7b98e10ee2" "20230203180814.946":
+  entity testbench3 at 1( 0) + 0 on 69;
+  architecture tb of testbench3 at 7( 78) + 0 on 70;
+file . "or_tb.vhd" "294d7b329e8c4eafc459b770e14c9cee0ee5eb13" "20230203180412.844":
+  entity testbench2 at 1( 0) + 0 on 65;
+  architecture tb of testbench2 at 7( 78) + 0 on 66;
+file . "enc4x2.vhd" "a4ee3a390bba0b17d7cfea91d0804c232a914af1" "20230129105710.125":
+  entity encoder4x2 at 1( 0) + 0 on 41;
+  architecture behaviour of encoder4x2 at 9( 170) + 0 on 42;
+file . "and_tb.vhd" "aa0e35ce53e0113e8b82624227e3e978cfcc24b1" "20230203175926.747":
+  entity testbench at 1( 0) + 0 on 61;
+  architecture tb of testbench at 7( 77) + 0 on 62;
+file . "and.vhd" "c79fa3a3a1f0b321ddedd16aa64b125948c1863d" "20230203175920.052":
+  entity and_gate at 1( 0) + 0 on 59;
+  architecture behaviour of and_gate at 10( 156) + 0 on 60;
+file . "or.vhd" "67311cca91fa97120e786deb17de8c2c5e7f3e2a" "20230203180405.803":
+  entity or_gate at 1( 0) + 0 on 63;
+  architecture behaviour of or_gate at 10( 155) + 0 on 64;
+file . "not.vhd" "3fb0ee1c5ab9947cf6c9ee4f3b1797ae690ecf9a" "20230203180805.134":
+  entity not_gate at 1( 0) + 0 on 67;
+  architecture behaviour of not_gate at 9( 133) + 0 on 68;
+file . "mux4x2.vhd" "6f720991cd682d727d636bdaa18498a5850214d9" "20230129122539.960":
+  entity mux4x2 at 1( 0) + 0 on 45;
+  architecture behaviour of mux4x2 at 10( 188) + 0 on 46;
+file . "enc4x2_tb.vhd" "fb31cac65e4493b64d8fc34db81e08df4167e604" "20230129105712.804":
+  entity testbench_enc at 1( 0) + 0 on 43;
+  architecture tb of testbench_enc at 7( 81) + 0 on 44;
+file . "RCA8.vhd" "8bcf9cc615d7a3bca339ef52bea3b417fb781288" "20230130090009.907":
+  entity fulladder at 1( 0) + 0 on 53;
+  architecture behaviour of fulladder at 10( 160) + 0 on 54;
+  entity rca8 at 16( 317) + 0 on 55;
+  architecture behaviour of rca8 at 25( 510) + 0 on 56;

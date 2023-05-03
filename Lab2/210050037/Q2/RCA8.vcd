@@ -1,0 +1,389 @@
+$date
+  Fri Feb  3 23:55:40 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module testbench_rca8 $end
+$var reg 8 ! a[7:0] $end
+$var reg 8 " b[7:0] $end
+$var reg 8 # sum[7:0] $end
+$var reg 1 $ cout $end
+$scope module dut_instance $end
+$var reg 8 % a[7:0] $end
+$var reg 8 & b[7:0] $end
+$var reg 8 ' sum[7:0] $end
+$var reg 1 ( cout $end
+$var reg 1 ) cin $end
+$var reg 1 * temp $end
+$var reg 1 + temp1 $end
+$var reg 1 , temp2 $end
+$var reg 1 - temp3 $end
+$var reg 1 . temp4 $end
+$var reg 1 / temp5 $end
+$var reg 1 0 temp6 $end
+$var reg 1 1 temp7 $end
+$scope module dut_instance $end
+$var reg 1 2 a $end
+$var reg 1 3 b $end
+$var reg 1 4 c $end
+$var reg 1 5 sum $end
+$var reg 1 6 cout $end
+$upscope $end
+$scope module dut_instance1 $end
+$var reg 1 7 a $end
+$var reg 1 8 b $end
+$var reg 1 9 c $end
+$var reg 1 : sum $end
+$var reg 1 ; cout $end
+$upscope $end
+$scope module dut_instance2 $end
+$var reg 1 < a $end
+$var reg 1 = b $end
+$var reg 1 > c $end
+$var reg 1 ? sum $end
+$var reg 1 @ cout $end
+$upscope $end
+$scope module dut_instance3 $end
+$var reg 1 A a $end
+$var reg 1 B b $end
+$var reg 1 C c $end
+$var reg 1 D sum $end
+$var reg 1 E cout $end
+$upscope $end
+$scope module dut_instance4 $end
+$var reg 1 F a $end
+$var reg 1 G b $end
+$var reg 1 H c $end
+$var reg 1 I sum $end
+$var reg 1 J cout $end
+$upscope $end
+$scope module dut_instance5 $end
+$var reg 1 K a $end
+$var reg 1 L b $end
+$var reg 1 M c $end
+$var reg 1 N sum $end
+$var reg 1 O cout $end
+$upscope $end
+$scope module dut_instance6 $end
+$var reg 1 P a $end
+$var reg 1 Q b $end
+$var reg 1 R c $end
+$var reg 1 S sum $end
+$var reg 1 T cout $end
+$upscope $end
+$scope module dut_instance7 $end
+$var reg 1 U a $end
+$var reg 1 V b $end
+$var reg 1 W c $end
+$var reg 1 X sum $end
+$var reg 1 Y cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b01010011 !
+b00110011 "
+b10000110 #
+0$
+b01010011 %
+b00110011 &
+b10000110 '
+0(
+0)
+1*
+1+
+0,
+0-
+1.
+1/
+10
+01
+12
+13
+04
+05
+16
+17
+18
+19
+1:
+1;
+0<
+0=
+1>
+1?
+0@
+0A
+0B
+0C
+0D
+0E
+1F
+1G
+0H
+0I
+1J
+0K
+1L
+1M
+0N
+1O
+1P
+0Q
+1R
+0S
+1T
+0U
+0V
+1W
+1X
+0Y
+#1
+b10110111 !
+b00010111 "
+b11001110 #
+0$
+b10110111 %
+b00010111 &
+b11001110 '
+0(
+1,
+00
+01
+1<
+1=
+1@
+1C
+1D
+1K
+0L
+0P
+1S
+0T
+1U
+0W
+1X
+0Y
+#2
+b01010011 !
+b00110011 "
+b10000110 #
+b01010011 %
+b00110011 &
+b10000110 '
+0,
+10
+0<
+0=
+0@
+0C
+0D
+0K
+1L
+1P
+0S
+1T
+0U
+1W
+1X
+#3
+b10110111 !
+b00010111 "
+b11001110 #
+0$
+b10110111 %
+b00010111 &
+b11001110 '
+0(
+1,
+00
+01
+1<
+1=
+1@
+1C
+1D
+1K
+0L
+0P
+1S
+0T
+1U
+0W
+1X
+0Y
+#4
+b01010011 !
+b00110011 "
+b10000110 #
+b01010011 %
+b00110011 &
+b10000110 '
+0,
+10
+0<
+0=
+0@
+0C
+0D
+0K
+1L
+1P
+0S
+1T
+0U
+1W
+1X
+#5
+b10110111 !
+b00010111 "
+b11001110 #
+0$
+b10110111 %
+b00010111 &
+b11001110 '
+0(
+1,
+00
+01
+1<
+1=
+1@
+1C
+1D
+1K
+0L
+0P
+1S
+0T
+1U
+0W
+1X
+0Y
+#6
+b01010011 !
+b00110011 "
+b10000110 #
+b01010011 %
+b00110011 &
+b10000110 '
+0,
+10
+0<
+0=
+0@
+0C
+0D
+0K
+1L
+1P
+0S
+1T
+0U
+1W
+1X
+#7
+b10110111 !
+b00010111 "
+b11001110 #
+0$
+b10110111 %
+b00010111 &
+b11001110 '
+0(
+1,
+00
+01
+1<
+1=
+1@
+1C
+1D
+1K
+0L
+0P
+1S
+0T
+1U
+0W
+1X
+0Y
+#8
+b01010011 !
+b00110011 "
+b10000110 #
+b01010011 %
+b00110011 &
+b10000110 '
+0,
+10
+0<
+0=
+0@
+0C
+0D
+0K
+1L
+1P
+0S
+1T
+0U
+1W
+1X
+#9
+b10110111 !
+b00010111 "
+b11001110 #
+0$
+b10110111 %
+b00010111 &
+b11001110 '
+0(
+1,
+00
+01
+1<
+1=
+1@
+1C
+1D
+1K
+0L
+0P
+1S
+0T
+1U
+0W
+1X
+0Y
+#10
+b01010011 !
+b00110011 "
+b10000110 #
+b01010011 %
+b00110011 &
+b10000110 '
+0,
+10
+0<
+0=
+0@
+0C
+0D
+0K
+1L
+1P
+0S
+1T
+0U
+1W
+1X
